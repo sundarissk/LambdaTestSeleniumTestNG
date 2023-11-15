@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-parallel_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">parallel Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-parallel_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\skuma\Local-Repo\SeleniumTestNg\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-parallel_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-parallel_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-parallel_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-parallel_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-parallel_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-parallel_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 4 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-parallel_Test_Suite" class="hide-methods failed suite-parallel_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-parallel_Test_Suite -->
+                      <a href="#" panel-name="suite-parallel_Test_Suite" class="show-methods failed suite-parallel_Test_Suite"> (show)</a> <!-- show-methods failed suite-parallel_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-parallel_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="MainPageTestCase">MainPageTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="MainPageTestCase">MainPageTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="MainPageTestCase">MainPageTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="MainPageTestCase">MainPageTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-parallel_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-parallel_Test_Suite" class="hide-methods passed suite-parallel_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-parallel_Test_Suite -->
+                      <a href="#" panel-name="suite-parallel_Test_Suite" class="show-methods passed suite-parallel_Test_Suite"> (show)</a> <!-- show-methods passed suite-parallel_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-parallel_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="CheckBoxPageTestCase">CheckBoxPageTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="CheckBoxPageTestCase">CheckBoxPageTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="CheckBoxPageTestCase">CheckBoxPageTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="CheckBoxPageTestCase">CheckBoxPageTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="JavaScriptAlertTestCase">JavaScriptAlertTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="JavaScriptAlertTestCase">JavaScriptAlertTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="JavaScriptAlertTestCase">JavaScriptAlertTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_Test_Suite" title="TestCasePackage.SeleniumTestNgTestCase" class="method navigator-link" hash-for-method="JavaScriptAlertTestCase">JavaScriptAlertTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-parallel_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-parallel_Test_Suite" class="panel parallel_Test_Suite">
+          <div class="suite-parallel_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCasePackage.SeleniumTestNgTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MainPageTestCase">
+                  </a> <!-- MainPageTestCase -->
+                  <span class="method-name">MainPageTestCase</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Assertion Fails expected [true] but found [false]
+	at ModulePackage.MainPage.ValidatePageTitle(MainPage.java:32)
+	at TestCasePackage.SeleniumTestNgTestCase.MainPageTestCase(SeleniumTestNgTestCase.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MainPageTestCase">
+                  </a> <!-- MainPageTestCase -->
+                  <span class="method-name">MainPageTestCase</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Assertion Fails expected [true] but found [false]
+	at ModulePackage.MainPage.ValidatePageTitle(MainPage.java:32)
+	at TestCasePackage.SeleniumTestNgTestCase.MainPageTestCase(SeleniumTestNgTestCase.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MainPageTestCase">
+                  </a> <!-- MainPageTestCase -->
+                  <span class="method-name">MainPageTestCase</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Assertion Fails expected [true] but found [false]
+	at ModulePackage.MainPage.ValidatePageTitle(MainPage.java:32)
+	at TestCasePackage.SeleniumTestNgTestCase.MainPageTestCase(SeleniumTestNgTestCase.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MainPageTestCase">
+                  </a> <!-- MainPageTestCase -->
+                  <span class="method-name">MainPageTestCase</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Assertion Fails expected [true] but found [false]
+	at ModulePackage.MainPage.ValidatePageTitle(MainPage.java:32)
+	at TestCasePackage.SeleniumTestNgTestCase.MainPageTestCase(SeleniumTestNgTestCase.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-parallel_Test_Suite-class-failed -->
+          <div class="suite-parallel_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCasePackage.SeleniumTestNgTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckBoxPageTestCase">
+                  </a> <!-- CheckBoxPageTestCase -->
+                  <span class="method-name">CheckBoxPageTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckBoxPageTestCase">
+                  </a> <!-- CheckBoxPageTestCase -->
+                  <span class="method-name">CheckBoxPageTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckBoxPageTestCase">
+                  </a> <!-- CheckBoxPageTestCase -->
+                  <span class="method-name">CheckBoxPageTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckBoxPageTestCase">
+                  </a> <!-- CheckBoxPageTestCase -->
+                  <span class="method-name">CheckBoxPageTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaScriptAlertTestCase">
+                  </a> <!-- JavaScriptAlertTestCase -->
+                  <span class="method-name">JavaScriptAlertTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaScriptAlertTestCase">
+                  </a> <!-- JavaScriptAlertTestCase -->
+                  <span class="method-name">JavaScriptAlertTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaScriptAlertTestCase">
+                  </a> <!-- JavaScriptAlertTestCase -->
+                  <span class="method-name">JavaScriptAlertTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaScriptAlertTestCase">
+                  </a> <!-- JavaScriptAlertTestCase -->
+                  <span class="method-name">JavaScriptAlertTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-parallel_Test_Suite-class-passed -->
+        </div> <!-- panel parallel_Test_Suite -->
+        <div panel-name="test-xml-parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\skuma\Local-Repo\SeleniumTestNg\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;parallel Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;88.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCasePackage.SeleniumTestNgTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Edge Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;87.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;macOS Sierra&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCasePackage.SeleniumTestNgTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;FF Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;82.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 7&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCasePackage.SeleniumTestNgTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FF Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;IE Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;11.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCasePackage.SeleniumTestNgTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IE Test --&gt;
+&lt;/suite&gt; &lt;!-- parallel Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for parallel Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FF Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IE Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for parallel Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for parallel Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_parallel_Test_Suite');
+function tableData_parallel_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'JavaScriptAlertTestCase')
+data.setCell(0, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(0, 3, 13740);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'JavaScriptAlertTestCase')
+data.setCell(1, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(1, 3, 8693);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckBoxPageTestCase')
+data.setCell(2, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(2, 3, 7363);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CheckBoxPageTestCase')
+data.setCell(3, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(3, 3, 6880);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'JavaScriptAlertTestCase')
+data.setCell(4, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(4, 3, 6542);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'MainPageTestCase')
+data.setCell(5, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(5, 3, 6301);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'MainPageTestCase')
+data.setCell(6, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(6, 3, 5907);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'MainPageTestCase')
+data.setCell(7, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(7, 3, 5313);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'MainPageTestCase')
+data.setCell(8, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(8, 3, 5286);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CheckBoxPageTestCase')
+data.setCell(9, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(9, 3, 5150);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CheckBoxPageTestCase')
+data.setCell(10, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(10, 3, 4060);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'JavaScriptAlertTestCase')
+data.setCell(11, 2, 'TestCasePackage.SeleniumTestNgTestCase')
+data.setCell(11, 3, 3951);
+window.suiteTableData['parallel_Test_Suite']= { tableData: data, tableDiv: 'times-div-parallel_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-parallel_Test_Suite">
+              </div> <!-- times-div-parallel_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for parallel Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCasePackage.SeleniumTestNgTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(chrome, 88.0, Windows 10)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MainPageTestCase</span>
+                <span class="method-start">30935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">37239 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(chrome, 88.0, Windows 10)</span>
+                <span class="method-start">37398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckBoxPageTestCase</span>
+                <span class="method-start">53493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">60857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(chrome, 88.0, Windows 10)</span>
+                <span class="method-start">61033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JavaScriptAlertTestCase</span>
+                <span class="method-start">76872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">83415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(Edge, 87.0, macOS Sierra)</span>
+                <span class="method-start">83616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MainPageTestCase</span>
+                <span class="method-start">89625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">94941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(Edge, 87.0, macOS Sierra)</span>
+                <span class="method-start">95273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckBoxPageTestCase</span>
+                <span class="method-start">103503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">107564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(Edge, 87.0, macOS Sierra)</span>
+                <span class="method-start">107781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JavaScriptAlertTestCase</span>
+                <span class="method-start">116288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">120241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(Firefox, 82.0, Windows 7)</span>
+                <span class="method-start">120512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MainPageTestCase</span>
+                <span class="method-start">132292 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">137579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(Firefox, 82.0, Windows 7)</span>
+                <span class="method-start">138240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckBoxPageTestCase</span>
+                <span class="method-start">160944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">166095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(Firefox, 82.0, Windows 7)</span>
+                <span class="method-start">166912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JavaScriptAlertTestCase</span>
+                <span class="method-start">182957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">191651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(IE, 11.0, Windows 10)</span>
+                <span class="method-start">192542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MainPageTestCase</span>
+                <span class="method-start">206567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">212475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(IE, 11.0, Windows 10)</span>
+                <span class="method-start">212553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckBoxPageTestCase</span>
+                <span class="method-start">228177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">235058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetUP(IE, 11.0, Windows 10)</span>
+                <span class="method-start">235149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JavaScriptAlertTestCase</span>
+                <span class="method-start">246228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserCloseing</span>
+                <span class="method-start">259970 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
